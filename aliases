@@ -1,0 +1,9 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --color $*
+pwd=cd
+clear=cls
+logless="Z:\Backtesting\Framework\cygwin64\bin\python2.7.exe" "Z:\Backtesting\Framework\logless\loglessBacktester.py" $1 
+ll=ls -l --color
+subl="C:\Program Files\Sublime Text 3\subl" $*
+vs="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe" $*

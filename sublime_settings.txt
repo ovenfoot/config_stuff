@@ -1,0 +1,83 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.tags*",
+		"*.ninja*",
+		"*.cmake",
+		"*.cache"
+	],
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+	"default_line_ending": "unix",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o*",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.diff",
+		"*.vcxproj",
+		"*.tags",
+		"*.tags_sorted_by_file",
+		"*.cache",
+		"*.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_u",
+		"_w",
+		"_r",
+		"_d",
+		".virtualenv",
+		"build",
+		".venv"
+	],
+	"font_size": 10,
+	"hot_exit": "false",
+	"ignored_packages":
+	[
+		"C++ Snippets",
+		"SublimeLinter",
+		"Vintage"
+	],
+	"numix_folder_icons": true,
+	"open_files_in_new_window": false,
+	"remember_open_files": "false",
+	"theme": "Numix Dark.sublime-theme",
+	"translate_tabs_to_spaces": "true",
+	"update_check": "false",
+	"word_wrap": "true"
+}
+//

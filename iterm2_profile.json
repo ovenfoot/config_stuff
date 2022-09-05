@@ -68,7 +68,7 @@
     "Red Component" : "1"
   },
   "Working Directory" : "\/Users\/ovenfoot",
-  "Blinking Cursor" : false,
+  "Blinking Cursor" : true,
   "Disable Window Resizing" : true,
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,

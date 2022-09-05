@@ -1,6 +1,10 @@
 if ! type "brew" > /dev/null; then
   echo "installing brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  
+  echo "finalising brew install"
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 if ! type "python" > /dev/null; then
@@ -15,4 +19,7 @@ echo "installing powerline fonts for ohmyzsh"
 git clone git@github.com:powerline/fonts ../powerline_fonts
 ../powerline_fonts/install.sh
 
-## todo: move zshrc file across
+echo "moving zshrc"
+cp zshrc ~/.zshrc
+
+

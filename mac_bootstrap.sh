@@ -12,6 +12,12 @@ if ! type "python" > /dev/null; then
   brew install python
 fi
 
+echo "installing Azure cli"
+brew install azure-cli
+
+echo "installing vscode"
+brew install visual-studio-code
+
 echo "installing ohmyzsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
